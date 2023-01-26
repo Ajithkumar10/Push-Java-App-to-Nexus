@@ -31,3 +31,12 @@ Source: https://docs.gradle.org/current/userguide/upgrading_version_6.html#sec:c
 
 Please follow this post on how to push the project to Nexus
 https://medium.com/@simionrazvan/how-to-create-a-gradle-library-and-publish-it-on-nexus-34be19b520aa
+
+On a high level, two things are important here to push your repo to Nexus
+
+###### Modify the build.gradle file to
+###### A) define the jar to be published in this case it is c:\MyProject\ClassesToBePublishedJar.jar,
+###### B) define the URL for the nexus repository location
+###### C) define the name and password to access this nexus repository
+###### rerun gradle clean build -./gradlew build and ./gradle publish
+###### Login to Nexus dedicated user, browse the repository you pushed. 
