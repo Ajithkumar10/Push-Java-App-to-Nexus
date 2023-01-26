@@ -39,4 +39,4 @@ On a high level, two things are important here to push your repo to Nexus
 ###### B) define the URL for the nexus repository location
 ###### C) define the name and password to access this nexus repository
 ###### rerun gradle clean build -./gradlew build and ./gradle publish
-###### Login to Nexus dedicated user, browse the repository you pushed. 
+###### Login to Nexus dedicated user, browse the repository that you pushed. 
