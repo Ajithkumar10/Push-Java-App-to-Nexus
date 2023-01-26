@@ -30,3 +30,6 @@ In build.gradle file, replace:
 
 Because, version 7.0 removed compile and testCompile configurations.
 Source: https://docs.gradle.org/current/userguide/upgrading_version_6.html#sec:configuration_removal
+
+Please follow this post on how to push the project to Nexus
+https://medium.com/@simionrazvan/how-to-create-a-gradle-library-and-publish-it-on-nexus-34be19b520aa
